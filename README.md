@@ -161,6 +161,9 @@ Output from a Network Spike Time optimization (note that Unicode backend is the 
 - [x] Ability to toggle between simulator backends (AStupid bear vs https://github.com/darsnack/SpikingNN.jl,SpikingNN.jl)
 
 #### TODO
+- [ ] Replace use of Python AllenSDK with https://github.com/JuliaNeuroscience/AllenBrain.jl
+- [ ] Regularize Spike Train outputs from SNN simulators using https://github.com/JuliaNeuroscience/NeuroCore.jl or SpikeSorting format.
+- [ ] Replace Graphs.jl with https://github.com/JuliaNeuroscience/NeuroGraphs.jl
 - [ ] Use large SNNs to optimize smaller SNNS themselves, as this would be parsimonious.
 - [ ] Implemented multi-processing of feature extraction/spike distance (sort of)
 - [ ] Animation of Genetic Algorithm Convergence (sort of metaheuristics does this with minimal effort)
